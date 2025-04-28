@@ -1,3 +1,9 @@
+Usage updated for 2025 (tested on Kiwi Browser and Slimjet History files):
+
+    python "export-chrome-history-new format date fixed line seperator with date alternate format.py"  "history-file"   "output.html"
+    
+
+
 # chrome-export [![Build status](https://github.com/bdesham/chrome-export/actions/workflows/main.yaml/badge.svg)](https://github.com/bdesham/chrome-export/actions/workflows/main.yaml)
 
 *Formerly called py-chrome-bookmarks*
