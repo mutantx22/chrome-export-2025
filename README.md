@@ -1,4 +1,4 @@
-Usage updated for 2025 (tested on Kiwi Browser and Slimjet History files):
+# Usage updated for 2025 (tested on Kiwi Browser and Slimjet History files):
 
     python "export-chrome-history-new format date fixed line seperator with date alternate format.py"  "history-file"   "output.html"
     
