@@ -55,7 +55,7 @@ def convert_timestamp(microseconds):
     utc_time = start_date + delta
     # Convert UTC time to local time
     local_time = utc_time.astimezone()
-    return local_time.strftime('%Y-%m-%d %H:%M:%S %Z')
+    return local_time.strftime('%Y-%m-%d') + '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;' + local_time.strftime('%H:%M:%S')
 
 def get_date(microseconds):
     start_date = datetime(1601, 1, 1, tzinfo=timezone.utc)
